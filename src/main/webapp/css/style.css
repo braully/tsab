@@ -1,0 +1,549 @@
+html, body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	border: 0;
+	color: #565656;
+        background-color: #c8d2d4;
+}
+
+
+
+body, img, p, h1, h2, h3, h4, h5, ul, ol, li, form, blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	line-height: 20px;
+	padding: 10px 0;
+}
+
+h1, h2, h3, h4, h5 {
+	padding: 10px 0;
+	font-family: Georgia;
+
+}
+
+ul, ol {
+	padding: 10px 0;
+	list-style-type: square;
+	list-style-position:inside;
+}
+
+small {
+	font-size: 11px;
+}
+
+code {
+	background: #FFFFC1;
+}
+
+
+a:hover {
+	text-decoration: none;
+}
+
+
+a {
+	color:#307dc3;	
+	text-decoration:none;
+}
+a:visited {
+	color:#307dc3;	
+}
+a:hover {
+	text-decoration:underline;
+}
+
+a img {
+	border: none;
+}
+
+blockquote p {
+	padding: 5px 0;
+}
+
+ 
+
+
+#page_navi {
+	width: 100%;
+	height: 27px;
+	font-size: 11px;
+	background-color: #0a2335;
+}
+
+#nav, #nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none; 
+	line-height: 1;
+	z-index: 100;
+}
+
+
+#page_navi a {
+	color:#CBCBCB;
+}
+
+#nav a {
+	display:block;
+	padding-right: 10px;
+	z-index:100;
+}
+
+#nav li {
+	float:left;
+	border-right: #464646 1px solid;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#nav  li.last {
+	border-right: none;
+	margin-right: 0px;
+}
+
+
+.col-right {
+	float: right;
+}
+
+
+#heading  {
+  height:68px;  
+  padding-top: 20px;  
+  right:0px;
+  margin-top:0px;
+  clear:both;
+  color: #9D9D9D;
+  background-color: #17374d;
+  border-right:#17374d 10px solid;
+}
+
+#content {
+	background-color:#f6f5f5;
+	width:949px;
+	
+	background-position:left;
+	background-repeat:repeat-y;
+	padding-bottom:50px;
+	margin-top:42px;
+	text-align:left;
+	min-height:500px;
+	clear: both;
+}
+#content-outer{
+	width:950px; /* 660=950-290 */
+	min-height:500px;
+}
+
+#main-container {
+	margin: 0 auto;
+	width:950px;
+	vertical-align:text-top;
+	min-height:500px;
+	clear: both;
+	background-color: #f6f5f5;
+}
+
+#left-container {
+	width:220px;
+	float:left;
+	padding-left:50px;
+	text-align:left;
+	min-height:500px;
+
+}
+#right-container {
+	width:620px;
+	margin-left:310px;
+	margin-top:-15px;
+	text-align:left;
+}
+
+
+#right-container h1 {
+	margin:2px 0 3px -10px;
+}
+
+#right-container li {
+padding:5px 0 5px 5px;
+}
+
+.category
+{
+	outline:0; 
+	display: block;
+	width: 180px;
+	margin-bottom:4px;
+	font-weight:bold;
+	background: #2c6288;
+	padding: 5px 0;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	
+	
+}
+
+.category a {
+	color: #fff;
+}
+
+a.category:visited {
+	color: #fff;
+}
+
+
+#left-container  axxx {
+	color: #3a3a3a;
+}
+
+#footer {
+	font-weight:normal;
+	font-size:12px;
+	background-color: #252525;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	color: #CECECE;
+}
+
+#footer a {
+	color: #CECECE;
+	text-decoration:underline;
+}
+
+
+
+#search {
+	margin-bottom:20px;i
+	font-size: 22px;
+	
+}
+
+#search input {
+	background: #FFF;
+	border:1px solid #ccc;
+}
+
+
+
+.subcat
+{
+	display: block;
+	width: 158px;	
+	padding: 5px 5px 5px 5px;
+	padding-top:0px;
+	padding-right:7px;
+	margin-top:0px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	background:#eee;
+	color: #000;
+	font-weight:bold;
+}
+
+.subcat a {
+	text-decoration:none;
+	font-size:11px;
+}
+.subcat a:hover {
+	text-decoration:underline;
+}
+
+
+#lines 
+{
+	width: 600px;
+	border: 1px solid #ddd;
+	padding: 1px;
+	text-align: left;
+	margin-top: 10px;
+	height: 450px;
+	overflow: scroll;
+	overflow-x:hidden
+	
+	
+}
+#lines .line
+{
+	background: #eee;
+	border-bottom: 1px solid #fff;
+	cursor: pointer;
+	padding-left: 23px;
+	text-indent: -20px;
+}
+#lines .sameone
+{
+	text-indent: 0;
+}
+
+#lines .active
+{
+	background: #daa;
+}
+#lines .speaker
+{
+	padding-left: 8px;
+}
+#lines .speaker_1
+{
+	background: #ADFF2F;
+}
+#lines .speaker_2
+{
+	background: #FFA450;
+}
+#lines .speaker_3
+{
+	background: #6495ED;
+}
+#lines .speaker_4
+{
+	background: #DDA0DD;
+}
+#lines .speaker_5
+{
+	background: #FFD700;
+}
+#lines .speaker_6
+{
+	background: #FA8072;
+}
+#lines .speaker_7
+{
+	background: #696969;
+}
+
+
+.topic_name {
+	position:relative;
+	left:15px;
+	color:#000000;
+}
+
+.topic_nav
+{
+	padding-bottom:1px;
+	padding-left: 6px;
+	width: 600px;
+}
+
+
+.topic
+{
+	padding-left: 12px;
+}
+.topic_1
+{
+	background: #deffac;
+}
+.topic_2
+{
+	background: #ffdbb9;
+}
+.topic_3
+{
+	background: #c1d5f8;
+}
+.topic_4
+{
+	background: #f1d9f1;
+}
+.topic_5
+{
+	background: #ffef99;
+}
+.topic_6
+{
+	background: #fdccc7;
+}
+.topic_7
+{
+	background: #c3c3c3;
+}
+
+
+#seekbar
+{
+	height: 12px;
+	background: #eee;
+	width: 600px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+#seekbar #playbar
+{
+	height: 12px;
+	background: #888;
+	width: 1px;
+	cursor: pointer;
+}
+
+
+
+
+/* SCAL styles */
+
+.scal{
+	/*background-color: white;*/
+	margin:3px;
+	/*border:1px dashed gray;*/
+	font-size:24pt;
+	width:436px;
+	min-height:300px;
+	display:block;
+	padding:10px;
+	font-size:24pt;
+	font-family:'Lucida Grande',Verdana,Arial,Sans-Serif;
+	line-height:normal;
+}
+.scal:hover{
+	cursor:pointer;
+	/*cursor:hand; /* If you're worried about old IE versions, turn this on.  I have it off because I hate seeing css exceptions in my debug window. ;) */
+}
+.scal .calwrapper{
+}
+.scal .calweekswrapper{
+	display:block;
+}
+.scal .calheader{
+	display: block;
+	width:100%;
+	text-align:center;
+	margin-bottom:2px;
+}
+.scal .caltitle{
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.scal .calcontrol{
+	margin: 2px;
+	padding: 2px;
+	font-size:12pt;
+	font-weight: bold;
+}
+.scal .calcontrol:hover{
+	background-color: #E86850;
+	color:white;
+}
+.scal .calclose{
+	border: 1px solid black;
+	float:right;
+}
+.scal .calprevmonth{
+	float:left;
+}
+.scal .calnextmonth{
+	float:right;
+}
+.scal .calnextyear{
+	display:none;
+}
+.scal .calprevyear{
+	display:none;
+}
+.scal .daybox{
+	float:left;
+	border:1px solid #403f3d;
+	width: 60px;
+	color:#675a46;
+	text-align:center;	
+}
+.scal .dayboxvalue{
+    display: none;
+}
+.scal .dayboxname{
+	background-color: #403f3d;
+	color:#ede8e1;
+	font-size:16pt;
+}
+.scal .dayboxsunday{
+	background-color: lightgray;
+}
+.scal .dayboxsaturday{
+	background-color: lightgray;
+}
+.scal .daybox:hover{
+	border:1px solid white;
+}
+.scal .dayboxname:hover{
+	border:1px solid black;
+}
+.scal .dayinmonth{
+	color: black;
+}
+.scal .dayoutmonth{
+	color:gray;
+}
+.scal .dayselected{
+	background-color: #555;
+	color: white;
+}
+.scal .daycurrent{
+	border:1px solid #cdc6b5;
+}
+.scal .weekbox{
+	width:100%;
+	display:block;
+}
+.scal .endweek{
+	float:left;
+}
+.scal .weekboxname{
+}
+
+
+.tinyscal{
+	font-size:8pt;
+	width:154px;
+	min-height:140px;
+}
+.tinyscal .calcontrol{
+	font-size:8pt;
+}
+.tinyscal .caltitle{
+	padding:3px;
+}
+.tinyscal .daybox{
+	width: 20px;
+}
+.tinyscal .dayboxname{
+	font-size: 8pt;
+}
+.tinyscal .weekboxname{
+	margin-top:5px;
+}
+
+.breadcrumb {
+	font-size:12px;
+	color:#666666;
+}
+
+.edit_hover {
+	color:#000000;
+	background-color: #c8d2d4;
+	margin:0px;
+	padding:0px;
+	display: inline;
+}
+
+.linecontent {
+	display: inline;
+	margin:0px;
+	padding:0px;
+}
+
+.inplace_form {
+	color: #000000;
+	font-family:Helvetica, Arial, sans-serif;
+	background-color: #CCCCCC;
+	border-right: #464646 1px solid;  
+}

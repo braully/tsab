@@ -1,3 +1,4 @@
 web/sounds/*
 /target
 build.properties
+/tsab-home/
