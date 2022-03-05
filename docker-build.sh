@@ -7,4 +7,5 @@ echo "Build image tsab"
 docker build -t tsab .
 
 echo "run docker image"
-docker run -d -p 8080:8080 -p 3306:3306 -v ./tsab-home:/opt/tsab/ tsab:lastest
+docker run -d -p 8080:80 -p 3306:3306 -e MYSQL_PASS="mypass" tsab
+
