@@ -1,0 +1,1 @@
+mysql -uadmin -padmin -e "CREATE DATABASE tsab CHARACTER SET UTF8; CREATE USER 'tsab'@'%' IDENTIFIED BY 'f09Flca'; GRANT ALL PRIVILEGES ON *.* TO 'tsab'@'%' WITH GRANT OPTION;"
