@@ -40,11 +40,11 @@ public class Constants {
                 TSAB_HOME_PATH = (String) envCtx.lookup(Constants.TSAB_HOME);
                 log.info("Setting " + TSAB_HOME + " to " + TSAB_HOME_PATH);
 
-                dbHost = exposeEnv(envCtx, "TSAB.DB.HOST");
+                dbHost = exposeEnv(envCtx, "TSAB_DB_HOST");
                 log.debug("Exposing db host as:" + dbHost);
-                dbUser = exposeEnv(envCtx, "TSAB.DB.USERNAME");
+                dbUser = exposeEnv(envCtx, "TSAB_DB_USERNAME");
                 log.debug("Exposing db username as:" + dbUser);
-                dbPass = exposeEnv(envCtx, "TSAB.DB.PASSWORD");
+                dbPass = exposeEnv(envCtx, "TSAB_DB_PASSWORD");
 
             } catch (NamingException e) {
                 log.error("Failed to look up env vars!", e);
@@ -56,15 +56,15 @@ public class Constants {
         }
 
         if (dbHost == null || dbHost.length() == 0) {
-            dbHost = System.getProperty("TSAB.DB.HOST");
+            dbHost = System.getProperty("TSAB_DB_HOST");
         }
 
         if (dbUser == null || dbUser.length() == 0) {
-            dbUser = System.getProperty("TSAB.DB.USERNAME");
+            dbUser = System.getProperty("TSAB_DB_USERNAME");
         }
 
         if (dbPass == null || dbPass.length() == 0) {
-            dbPass = System.getProperty("TSAB.DB.PASSWORD");
+            dbPass = System.getProperty("TSAB_DB_PASSWORD");
         }
 
         if (TSAB_HOME_PATH == null || TSAB_HOME_PATH.length() == 0) {
