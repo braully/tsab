@@ -22,8 +22,7 @@ Usage:
   trans-add [path/to/]audio.mp3 [path/to/]transcription.trs CategoryId [Title]
   trans-del TranscriptionId
   crawl path/to/dir
-  reindexExiting with code: -3
-
+  reindexExiting
   trans-update-trs [path/to/]transcription.trs
 ```
 
