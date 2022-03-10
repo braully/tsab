@@ -47,7 +47,7 @@ public class Constants {
                 dbPass = exposeEnv(envCtx, "TSAB_DB_PASSWORD");
 
             } catch (NamingException e) {
-                log.error("Failed to look up env vars!", e);
+                log.info("Failed to look up env vars!", e);
             }
         }
 
