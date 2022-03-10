@@ -70,8 +70,7 @@ public class TsabCLI {
                 return ret;
             }
         }
-        EntityBinder System
-        .err.println("No handler found for command " + cmd);
+        System.err.println("No handler found for command " + cmd);
         System.err.println("Usage:");
         for (CLIProvider p : providers) {
             p.printUsage(System.err);
