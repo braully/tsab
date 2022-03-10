@@ -32,7 +32,7 @@ public class Constants {
         String dbUser = null;
         String dbPass = null;
 
-        if (System.getProperty("TSAB.CLI") == null) {
+        if (System.getProperty("TSAB_CLI") == null) {
             Context initCtx;
             try {
                 initCtx = new InitialContext();
